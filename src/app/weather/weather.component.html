@@ -1,0 +1,62 @@
+  <div class="search">
+    <form #form ="ngForm" (submit)="onSubmit()">
+      <input type="text" placeholder="Search city" name = "city" [(ngModel)] = "cityName">
+    </form>
+  </div>
+ <!-- <div class="container" *ngIf="current && location"> 
+  <div class="main-data">
+    <img src = "../assets/pic/hot (2).jpg" *ngIf=" current.temp_c > 15">  
+    <img src = "../assets/pic/cold (2).jpg" *ngIf="current.temp_c <= 15">  
+
+    <div class="location_temp">
+      <div class="location">{{location.name}}</div>
+      <div class="temperature">{{ current.temp_c | number: '1.0-0'}}°C</div>
+    </div>
+  </div>
+
+  <div class="down_data">
+    <div class="more-info-label">
+      More information
+    </div>
+    <div class="more-information">
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../../assets/pic/feelsLike(1).png">
+          <span>Feels like</span>
+        </div>
+        <div class="info-block-value">
+          {{current.feelslike_c | number: '1.0-0'}}°C
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div  class="info-block-label">
+          <img src="../../assets/pic/cloud(1).png">
+          <span>cloud</span>
+        </div>
+        <div class="info-block-value">
+          {{current.cloud}}
+        </div>
+
+      </div> <div class="info-block">
+        <div  class="info-block-label">
+          <img src="../../assets/pic/humidity.png">
+          <span>humidity</span>
+        </div>
+        <div class="info-block-value">
+          {{current.humidity}}%
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div  class="info-block-label">
+          <img src="../../assets/pic/wind(1).png">
+          <span>wind</span>
+        </div>
+        <div class="info-block-value">
+          {{current.wind_degree}} km/h
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
