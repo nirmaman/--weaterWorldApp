@@ -2,7 +2,7 @@
 
 The app displays the temperature at the given moment. In addition, it displays other important details such as cloudiness, humidity, wind and how the temprerature really feels like.
 
-# weatherApp
+## version
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
